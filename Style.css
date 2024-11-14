@@ -1,0 +1,57 @@
+/* ใช้ลิงก์พื้นหลังจาก Google Drive */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+label, select, button {
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+    font-weight: bold;
+}
