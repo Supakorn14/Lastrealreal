@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetics Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <button onclick="window.location.href='home.html'">Home</button>
+        <button onclick="window.location.href='page1.html'">Page 1</button>
+        <button onclick="window.location.href='page2.html'">Page 2</button>
+        <button onclick="window.location.href='page3.html'">Page 3</button>
+    </div>
+
+    <h2>Genetics Calculator</h2>
+
+    <!-- ฟอร์มสำหรับใส่ข้อมูลอัลลีลของพ่อและแม่ -->
+    <label for="parent1">Parent 1 Allele:</label>
+    <select id="parent1">
+        <option value="A">A</option>
+        <option value="a">a</option>
+    </select>
+
+    <label for="parent2">Parent 1 Allele:</label>
+    <select id="parent2">
+        <option value="A">A</option>
+        <option value="a">a</option>
+    </select>
+
+    <br><br>
+
+    <label for="parent3">Parent 2 Allele:</label>
+    <select id="parent3">
+        <option value="A">A</option>
+        <option value="a">a</option>
+    </select>
+
+    <label for="parent4">Parent 2 Allele:</label>
+    <select id="parent4">
+        <option value="A">A</option>
+        <option value="a">a</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="calculateGenetics()">Calculate</button>
+
+    <h3>Results:</h3>
+    <p id="results"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
