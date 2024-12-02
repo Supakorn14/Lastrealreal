@@ -26,7 +26,7 @@ function calculateGenetics() {
     let Aa_percent = ((counts["Aa"] + counts["aA"]) / total) * 100;
     let aa_percent = (counts["aa"] / total) * 100;
 
-    // แสดงผลลัพธ์
+    // แสดงผลลัพธ์ result นอยง่ะ
     document.getElementById("results").innerHTML =
         `AA: ${AA_percent.toFixed(2)}%<br>` +
         `Aa: ${Aa_percent.toFixed(2)}%<br>` +
